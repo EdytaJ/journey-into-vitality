@@ -21,20 +21,37 @@ h1, h2 {
 
 #logo-main {
     float: left;
-    font-size: 250%;
+    font-size: 270%;
+    
 }
 
 #navigation {
-  float: right;
   flex-direction: row;
   list-style-type: none;
-  margin: 0;
+  margin: 2%;
   padding: 0;
 }
 
 #navigation li {
+    float: right;
     margin: 0 1rem;
     list-style-type: none;
-    margin-top: 3%;
     
+}
+
+#navigation a {
+text-decoration: none;
+color: black;
+}
+
+#logo-main, #navigation {
+    line-height: 100%;
+}
+
+#navigation a:hover  {
+   border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
