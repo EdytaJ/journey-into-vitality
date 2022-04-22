@@ -28,15 +28,13 @@ h1, h2 {
 #navigation {
   flex-direction: row;
   list-style-type: none;
-  margin: 2%;
-  padding: 0;
 }
 
 #navigation li {
     float: right;
     margin: 0 1rem;
     list-style-type: none;
-    
+    padding-top: 2%;
 }
 
 #navigation a {
@@ -54,4 +52,12 @@ color: black;
 
 .active {
     border-bottom: 1px solid black;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/herbs.jpg');
+    overflow: hidden;
+
 }
