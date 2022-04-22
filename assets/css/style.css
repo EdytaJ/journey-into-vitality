@@ -1,3 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: Libre Baskerville, sans-serif;
+color: black;
+}
+
+/* logo and headings */
+
+h1, h2 {
+    font-family: Source Sans Pro, sans-serif;
+    letter-spacing: 3px;
+    color: black;
+}
+
+#logo-main {
+    float: left;
+    font-size: 250%;
+}
+
+#navigation {
+  float: right;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+    margin: 0 1rem;
+    list-style-type: none;
+    margin-top: 3%;
+    
 }
