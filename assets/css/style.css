@@ -75,31 +75,32 @@ color: black;
     margin-bottom: 4%;
 }
 
-#main-text {
-    display: ;
-}
 #names {
     text-align: center;
    
 }
 
 p {
-    text-align:left
-    
-    }
+    text-align:left;
+    letter-spacing: 3px;
+}
 
 
 .column1of3, .column2of3, .column3of3 {
     width: 300px;
     float: left;
-    margin: 20px;
-    
+    margin: 20px;    
+}
+
+h3 {
+   padding: 10%; 
+   line-height: 150%;
 }
 
  /* footer*/
 
  footer {
-     height: 100px;
+     height: 75px;
      position: fixed;
      width: 100%;
      background-color: rgb(177, 207, 207);
