@@ -89,5 +89,31 @@ padding-right: 50pt;
 
  }
 
+ /* footer*/
 
+ footer {
+     height: 100px;
+     position: fixed;
+     width: 100%;
+     background-color: rgb(177, 207, 207);
+     color: black;
+     left: 0;
+     bottom: 0;
+ }
+
+ .social-media {
+     text-align: center;
+ }
+
+ .social-media li {
+     display: inline-table;
+ }
+
+ .social-media i {
+    font-size: 150%;
+    color: black;
+    padding-left: 50px;
+   padding-right: 50px;
+   margin-top: 25%;
+     }
 
