@@ -82,7 +82,6 @@ color: black;
 
 p {
     letter-spacing: 2px;
-
 }
 
 
@@ -91,11 +90,29 @@ p {
    float: left;
     margin: 10px; 
     padding-right: 5%;
-    border-style:groove;
+    border-right:groove;
     border-color: rgb(177, 207, 207);
     height: 70%;
     background: url('../images/herbtwo.jpg') no-repeat center center;
     overflow: hidden;
+}
+
+.additional-one {
+    float:left;
+    margin-top: 15%;
+    font-size: 10px;
+}
+
+.additional-two {
+    float: left;
+    margin-top: 8%;
+    font-size: 10px;
+}
+
+.additional-three {
+    float: left;
+    margin-top: 15%;
+    font-size: 10px;
 }
 
 h3 {
@@ -107,13 +124,9 @@ h3 {
  /* footer*/
 
  footer {
-     height: 75px;
-     position: fixed;
-     width: 100%;
-     background-color: rgb(177, 207, 207);
-     color: black;
-     left: 0;
-     bottom: 0;
+    height: 100px;
+    background-color: #73bebe;
+
  }
 
  .social-media {
