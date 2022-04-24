@@ -56,7 +56,7 @@ color: black;
 }
 
 #hero-image {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: url('../images/herbs.jpg') no-repeat center center;
     overflow: hidden;
@@ -81,20 +81,27 @@ color: black;
 }
 
 p {
-    text-align:left;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+
 }
 
 
 .column1of3, .column2of3, .column3of3 {
-    width: 300px;
-    float: left;
-    margin: 20px;    
+    width: 35%;
+   float: centre;
+    margin: 10px; 
+    padding-right: 5%;
+    border-style:groove;
+    border-color: rgb(177, 207, 207);
+    height: 50%;
+    background: url('../images/herbtwo.jpg') no-repeat center center;
+    overflow: hidden;
 }
 
 h3 {
    padding: 10%; 
    line-height: 150%;
+   text-align: center;
 }
 
  /* footer*/
