@@ -87,13 +87,13 @@ p {
 
 
 .column1of3, .column2of3, .column3of3 {
-    width: 35%;
-   float: centre;
+    width:25%;
+   float: left;
     margin: 10px; 
     padding-right: 5%;
     border-style:groove;
     border-color: rgb(177, 207, 207);
-    height: 50%;
+    height: 70%;
     background: url('../images/herbtwo.jpg') no-repeat center center;
     overflow: hidden;
 }
