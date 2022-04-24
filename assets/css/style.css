@@ -8,12 +8,12 @@
 
 body {
     font-family: Libre Baskerville, sans-serif;
-color: black;
+    color: black;
 }
 
 /* logo and headings */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Source Sans Pro, sans-serif;
     letter-spacing: 3px;
     color: black;
@@ -68,11 +68,24 @@ color: black;
     width: 100%;
 }
 
-#sub-title {
+h2 {
     text-align: center;
     margin-top: 2%;
     font-size: 200%;
     margin-bottom: 4%;
+}
+
+#main {
+    text-align: left;
+    padding: 2%;
+    margin: 1%;
+}
+
+input {
+ background-color: black;
+ color: white;
+ margin: 10px 0;
+ padding: 0.5%;
 }
 
 #names {
@@ -82,6 +95,7 @@ color: black;
 
 p {
     letter-spacing: 2px;
+    font-size: 100%;
 }
 
 
@@ -119,29 +133,29 @@ h3 {
    padding: 10%; 
    line-height: 150%;
    text-align: center;
+   text-transform: capitalize;
+   font-weight: 700;
 }
 
- /* footer*/
+ /* footer */
 
  footer {
-    height: 100px;
-    background-color: #73bebe;
-
+    height: 300px;
+    background-color: #a5d1c3;
+    width: 100%
  }
 
  .social-media {
      text-align: center;
  }
 
- .social-media li {
-     display: inline-table;
+ .social-media > li {
+     display: inline;
  }
 
  .social-media i {
-    font-size: 150%;
-    color: black;
-    padding-left: 50px;
-   padding-right: 50px;
-   margin-top: 25%;
-     }
-
+     font-size: 100%;
+     margin: 1%;
+     padding: 5%;
+     color: black;
+ }
