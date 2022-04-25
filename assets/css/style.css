@@ -83,11 +83,14 @@ h2 {
     margin: 1%;
 }
 
-input {
+button {
  background-color: black;
  color: white;
  margin: 10px 0;
- padding: 0.5%;
+ padding: 12px 28px;
+ font-size: 15px;
+ display: inline-block;
+ border-radius: 8px;
 }
 
 
@@ -140,6 +143,24 @@ h3 {
    font-weight: 700;
 }
 
+/* vote form */
+
+form {
+        text-align: center;
+        padding: 5%;
+        line-height: 50px;
+}
+
+.submit {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+
  /* footer */
 
  footer {
@@ -166,14 +187,15 @@ h3 {
  .subscribe {
      background-color: transparent;
      color: black;
-     border: 1px solid rgb(198, 214, 198);
-     border-radius: 50px;
+     border: 1px solid black;
+     border-radius: 8px;
      display: inline-block;
-     width: 300px;
+     width: 200px;
      text-align: center;
    }
 
  form {
     text-align: center;
+    padding: 5%;
 }
 
