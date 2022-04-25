@@ -66,8 +66,8 @@ color: black;
 }
 
 #botanicals {
-    height: 600px;
-    width: 100%;
+   width: 100%;
+   display: inline-block;
 }
 
 h2 {
@@ -143,9 +143,9 @@ h3 {
  /* footer */
 
  footer {
-    position: absolute
-    height: 300px;
-    width: 100%
+    width: 100%;
+    display: inline-block;
+    background-color: #c9e0d9;
  }
 
  .social-media {
