@@ -106,15 +106,16 @@ p {
 
 
 .column1of3, .column2of3, .column3of3 {
-    width:25%;
-   float: left;
-    margin: 10px; 
-    padding-right: 5%;
-    border-right:groove;
-    border-color: rgb(177, 207, 207);
-    height: 70%;
-    background: url('../images/background2.jpeg') no-repeat center center;
-    overflow: hidden;
+width:31%;
+margin: quto 5px;
+padding: 10px;
+display:inline-block;
+align-items: center;
+border-right:groove;
+border-color: rgb(177, 207, 207);
+height: 70%;
+background: url('../images/background2.jpeg') no-repeat center center;
+overflow: hidden;
 }
 
 .additional-one {
