@@ -113,12 +113,12 @@ p {
     border-right:groove;
     border-color: rgb(177, 207, 207);
     height: 70%;
-    background: url('../images/herbtwo.jpg') no-repeat center center;
+    background: url('../images/background2.jpeg') no-repeat center center;
     overflow: hidden;
 }
 
 .additional-one {
-    float:left;
+    float: left;
     margin-top: 15%;
     font-size: 10px;
 }
