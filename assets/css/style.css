@@ -202,9 +202,13 @@ form {
 
 /* recipes */
 
+h4 {
+    margin: 2%;
+}
 .content {
     float: right;
    margin: 5%;
+   line-height: 150%;
 }
 
 img {
