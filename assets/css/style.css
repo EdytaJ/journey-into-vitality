@@ -206,9 +206,11 @@ h4 {
     margin: 2%;
 }
 .content {
-    float: right;
+ float: right;
    margin: 5%;
    line-height: 150%;
+   margin: 5%;
+   letter-spacing: 3px;
 }
 
 img {
