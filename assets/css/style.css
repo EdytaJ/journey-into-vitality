@@ -200,3 +200,14 @@ form {
     padding: 5%;
 }
 
+/* recipes */
+
+.content {
+    float: right;
+   margin: 5%;
+}
+
+img {
+  display: inline;
+  margin: 5%;
+}
