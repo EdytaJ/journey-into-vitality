@@ -10,7 +10,6 @@ body {
     font-family: Libre Baskerville, sans-serif;
     color: black;
     font-weight: 300;
-    min-height: 100%;
 }
 
 /* logo and headings */
@@ -104,8 +103,7 @@ p {
     font-size: 100%;
 }
 
-
-.column1of3, .column2of3, .column3of3 {
+.column {
 width:31%;
 margin: quto 5px;
 padding: 10px;
@@ -126,7 +124,7 @@ overflow: hidden;
 
 .additional-two {
     float: left;
-    margin-top: 8%;
+    margin-top: 10%;
     font-size: 10px;
 }
 
@@ -205,15 +203,79 @@ form {
 h4 {
     margin: 2%;
 }
+#main-two {
+    text-align: center;
+}
+
+
 .content {
  float: right;
    margin: 5%;
-   line-height: 150%;
-   margin: 5%;
+   line-height: 125%;
    letter-spacing: 3px;
+   border-bottom: groove;
+   border-right: groove;
+   border-top: groove;
+border-color: #c9e0d9;
+border-radius: 3%;
+overflow: hidden;
 }
 
 img {
   display: inline;
   margin: 5%;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+
+    img {
+        display: inline;
+        margin: 2.5%;
+    }
+
+    .content {
+       margin: 1%;
+       padding: 1%;
+       width: 70%;
+    }
+    .column {
+        width: 30%;
+    }
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #logo-main {
+        text-align: center;
+    }
+   
+    #navigation {
+   
+       display: inline-block;
+       margin: 5% 5% 0 0;
+    }  
+    
+    .column {
+        width: 100%;
+    }
+
+    
+
+/* For small screen sizez 800ps down */
+@media screen and (max-width: 800px) {
+ 
+ #logo-main {
+     text-align: center;
+ }
+
+ #navigation {
+
+    display: inline-block;
+    margin: 5% 5% 0 0;
+ }
+
+ .column {
+     width: 97%;
+ }
