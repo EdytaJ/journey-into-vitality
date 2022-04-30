@@ -218,6 +218,7 @@ h4 {
    border-top: groove;
 border-color: #c9e0d9;
 border-radius: 3%;
+background: url('../images/ingredients.jpeg') no-repeat center center;
 overflow: hidden;
 }
 
@@ -247,6 +248,10 @@ img {
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
+
+    #hero-image {
+        width: 100%;
+    }
     #logo-main {
         text-align: center;
     }
@@ -269,10 +274,18 @@ img {
         width: 100%
     }
 
+    .content {
+        border-top: none;
+       }
+
     
 
 /* For small screen sizez 800ps down */
 @media screen and (max-width: 800px) {
+
+    #hero-image {
+        width: 100%;
+    }
  
  #logo-main {
      text-align: center;
@@ -281,7 +294,7 @@ img {
  #navigation {
 
     display: inline-block;
-    margin: 1%;
+    margin-top: 5%;
     float: right;
  }
 
@@ -292,3 +305,7 @@ img {
  img {
      display: inline;
  }
+
+ .content {
+    border-top: none;
+   }
