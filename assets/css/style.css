@@ -218,7 +218,8 @@ h4 {
    border-top: groove;
 border-color: #c9e0d9;
 border-radius: 3%;
-background: url('../images/ingredients.jpeg') no-repeat center center;
+background: url('../images/image1.jpeg') no-repeat center center;
+background-size: 150%;
 overflow: hidden;
 }
 
@@ -233,12 +234,14 @@ img {
 
     img {
        float: left;
+       overflow: hidden;
     }
 
     .content {
        margin: 1%;
        padding: 2%;
        width: 91%;
+       overflow: hidden;
     }
 
     .column {
@@ -268,14 +271,12 @@ img {
 
     img {
       float: left;
-    }
-    
-    #content {
-        width: 100%
+      padding-left: 33%;
     }
 
     .content {
         border-top: none;
+        overflow: hidden;
        }
 
     
@@ -289,6 +290,7 @@ img {
  
  #logo-main {
      text-align: center;
+     font-size: 200%;
  }
 
  #navigation {
@@ -304,8 +306,10 @@ img {
 
  img {
      display: inline;
+     padding-left: 25%;
  }
 
  .content {
     border-top: none;
+    overflow: hidden;
    }
