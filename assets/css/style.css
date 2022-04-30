@@ -231,15 +231,15 @@ img {
 @media screen and (max-width: 1200px) {
 
     img {
-        display: inline;
-        margin: 2.5%;
+       float: left;
     }
 
     .content {
        margin: 1%;
-       padding: 1%;
-       width: 70%;
+       padding: 2%;
+       width: 91%;
     }
+
     .column {
         width: 30%;
     }
@@ -254,11 +254,19 @@ img {
     #navigation {
    
        display: inline-block;
-       margin: 5% 5% 0 0;
+       margin: 2%;
     }  
     
     .column {
         width: 100%;
+    }
+
+    img {
+      float: left;
+    }
+    
+    #content {
+        width: 100%
     }
 
     
@@ -273,9 +281,14 @@ img {
  #navigation {
 
     display: inline-block;
-    margin: 5% 5% 0 0;
+    margin: 1%;
+    float: right;
  }
 
  .column {
-     width: 97%;
+     width: 100%;
+ }
+
+ img {
+     display: inline;
  }
