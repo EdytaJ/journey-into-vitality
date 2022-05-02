@@ -42,7 +42,7 @@ h1 {
 .navigation a {
 color: black;
 display: inline-block;
-background-color: none;
+background: none;
 border-radius: 4px;
 text-decoration: none;
 
@@ -53,7 +53,7 @@ text-decoration: none;
 }
 
 .navigation .current-form {
-    background-color: none;
+    background: none;
 }
 
 h1 .navigation {
@@ -122,7 +122,7 @@ p {
 
 .column {
 width:31%;
-margin: quto 5px;
+margin: auto 5px;
 padding: 10px;
 display:inline-block;
 align-items: center;
@@ -318,7 +318,7 @@ img {
  #navigation a {
 
     display: inline-block;
-    margin-top: 5% 0;
+    margin: 5% 0;
  }
 
  .column {
@@ -337,7 +337,7 @@ img {
  }
 
  
-/* For mobile screen sizez 480px down */
+/* For mobile screen sizes 480px down */
 @media screen and (max-width: 480px) {
 
     .responsive {
@@ -352,7 +352,7 @@ img {
  #navigation a {
 
     display: inline-block;
-    margin-top: 5% 0;
+    margin: 7%;
  }
 
  .column {
