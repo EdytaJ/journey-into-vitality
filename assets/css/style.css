@@ -52,10 +52,6 @@ text-decoration: none;
     background-color: #DBC2AD;
 }
 
-.navigation .current-form {
-    background: none;
-}
-
 h1 .navigation {
     line-height: 100%;
 }
@@ -250,7 +246,13 @@ img {
 /* media queries */
 
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2200px) {
+
+   
+    .responsive {
+        width: 100%;
+    }
+   
 
     img {
         display: inline;
@@ -369,3 +371,4 @@ img {
     overflow: hidden;
  }
 
+}
