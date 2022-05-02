@@ -250,8 +250,11 @@ img {
 
    
     .responsive {
-        width: 100%;
-    }
+   max-width: 100%;
+   width: 2500px;
+   margin: 0;
+   padding: 0;
+}
    
 
     img {
