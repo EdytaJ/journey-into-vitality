@@ -20,7 +20,7 @@ h1, h2, h3 {
     color: black;
 }
 
-#logo-main {
+h1 {
     float: left;
     font-size: 270%;
     margin-left: 2%;
@@ -56,7 +56,7 @@ text-decoration: none;
     background-color: none;
 }
 
-#logo-main, .navigation {
+h1 .navigation {
     line-height: 100%;
 }
 
@@ -97,16 +97,16 @@ h2 {
         margin-top: 2%;
         margin-bottom: 4%;
     }
-}
 
-button {
- background-color: black;
- color: white;
+.button {
+ background-color: #DBC2AD;
+ color: black;
  margin: 10px 0;
  padding: 12px 28px;
  font-size: 15px;
  display: inline-block;
  border-radius: 8px;
+ text-decoration: none;
 }
 
 
@@ -249,11 +249,13 @@ img {
 
 /* media queries */
 
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 2000px) {
 
     img {
-       float: left;
-       overflow: hidden;
+        display: inline;
+        padding: 0 25%;
+        margin: 2px 20%;
     }
 
     .content {
@@ -269,12 +271,12 @@ img {
 
 /* For medium screen sizes from 950px wide and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1280px) {
 
-    #hero-image {
+   .responsive {
         width: 100%;
     }
-    #logo-main {
+   h1 {
         text-align: center;
     }
    
@@ -285,12 +287,13 @@ img {
     }  
     
     .column {
-        width: 100%;
+        width: 30%;
     }
 
     img {
-      float: left;
-      padding-left: 33%;
+        display: inline;
+        padding: 0 25%;
+        margin: 2px 20%;
     }
 
     .content {
@@ -300,14 +303,48 @@ img {
 
     
 
-/* For small screen sizez 800ps down */
-@media screen and (max-width: 800px) {
+/* For small screen sizez 768 down */
+@media screen and (max-width: 768px) {
 
-    #hero-image {
+    .responsive {
         width: 100%;
     }
  
- #logo-main {
+ h1 {
+     text-align: center;
+     font-size: 200%;
+ }
+
+ #navigation a {
+
+    display: inline-block;
+    margin-top: 5% 0;
+ }
+
+ .column {
+     width: 100%;
+ }
+
+ img {
+     display: inline;
+     padding: 0 15%;
+     margin: 30px 50px
+ }
+
+ .content {
+    border-top: none;
+    overflow: hidden;
+ }
+
+ 
+/* For mobile screen sizez 480px down */
+@media screen and (max-width: 480px) {
+
+    .responsive {
+        width: 100%;
+    }
+ 
+ h1 {
      text-align: center;
      font-size: 200%;
  }
@@ -327,8 +364,8 @@ img {
      padding: 0 15%;
      margin: 18px 35px
  }
-
  .content {
     border-top: none;
     overflow: hidden;
  }
+
