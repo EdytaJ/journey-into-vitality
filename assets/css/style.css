@@ -67,12 +67,11 @@ text-decoration: none;
 text-decoration: none;
 }
 
-#hero-image {
-    height: 400px;
-    width: 100%;
-    background: url('../images/herbs.jpg') no-repeat center center;
-    overflow: hidden;
-
+.responsive {
+max-width: 100%;
+   width: 1500px;
+   margin: 0;
+   padding: 0;
 }
 
 #botanicals {
