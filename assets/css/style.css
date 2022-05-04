@@ -34,11 +34,12 @@ h1 {
   flex-direction: row;
   list-style-type: none;
 font-weight: bold;
+font-size: 100%;
 }
 
 .navigation li {
     float: right;
-    margin: 0 2%;
+    margin: 2%;
     list-style-type: none;
     padding-top: 4%;
 }
@@ -279,7 +280,7 @@ overflow: hidden;
         width: 30%;
     }
 
-/* For medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 1280px wide and down */
 
 @media screen and (max-width: 1280px) {
 
@@ -309,7 +310,18 @@ overflow: hidden;
         overflow: hidden;
        }
 
-    
+   /* For medium  screen sizez 1090px down */  
+
+       @media screen and (max-width: 1090px) {
+           .column {
+               width: 100%;
+               text-align: center;
+           }
+
+         .navigation {
+             font-size: 50%;
+         } 
+       } 
 
 /* For small screen sizez 768 down */
 @media screen and (max-width: 768px) {
@@ -373,5 +385,4 @@ overflow: hidden;
     border-top: none;
     overflow: hidden;
  }
-
 }
