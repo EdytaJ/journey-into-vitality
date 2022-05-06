@@ -106,7 +106,7 @@ align-items: center;
 border-right:groove;
 border-color: #b1cfcf;
 height: 70%;
-background: url('../images/background2.jpeg') no-repeat center center;
+background: url('../images/ingredients.jpeg') no-repeat center center;
 overflow: hidden;
 object-fit: cover;
 }
@@ -198,7 +198,7 @@ h4 {
    border-top: groove;
 border-color: #c9e0d9;
 border-radius: 3%;
-background: url('../images/background2.jpeg') no-repeat center center;
+background: url('../images/ingredientsx.jpeg') no-repeat center center;
 background-size: 150%;
 overflow: hidden;
 }
@@ -206,6 +206,10 @@ overflow: hidden;
     display: block;
     margin-left: auto;
     margin-right: auto;
+ }
+
+ ul {
+     list-style-type: none;
  }
 
 /* media queries */
@@ -257,7 +261,6 @@ overflow: hidden;
         width: 32.5%;
         margin: 1px;
         }
-    }
     .content-one {
         width: 50%;
     }
@@ -270,7 +273,7 @@ overflow: hidden;
    /* For medium  screen sizez 1090px down */  
        @media screen and (max-width: 1090px) {
            .column {
-               width: 100%;
+               width: 32%;
                text-align: center;
            }
          .navigation {
