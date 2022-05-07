@@ -38,6 +38,7 @@ display: inline-block;
 background: none;
 border-radius: 4px;
 text-decoration: none;
+font-size: 20px;
 }
 .navigation .current {
     background-color: #DBC2AD;
@@ -273,8 +274,8 @@ overflow: hidden;
                width: 32%;
                text-align: center;
            }
-         .navigation {
-             font-size: 50%;
+         .navigation a {
+             font-size: 80%;
          } 
        } 
 /* For small screen sizez 768 down */
@@ -287,7 +288,7 @@ overflow: hidden;
      text-align: center;
      font-size: 200%;
  }
- #navigation li {
+ #navigation a {
     display: inline-block;
     margin: 1% 0;
     padding-left: 0;
@@ -307,6 +308,10 @@ overflow: hidden;
     .navigation li {
     padding-bottom: 2%
      }
+
+     .content-one {
+        width: 100%
+      }
     }
 
 /* For mobile screen sizes 480px down */
