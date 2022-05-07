@@ -290,8 +290,7 @@ overflow: hidden;
  }
  #navigation a {
     display: inline-block;
-    margin: 1% 0;
-    padding-left: 0;
+    font-size: 70%;
  }
 
  .content-one {
