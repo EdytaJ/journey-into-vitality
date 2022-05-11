@@ -219,13 +219,7 @@ overflow: hidden;
    margin: 0;
    padding: 0;
 }
-
-#navigation li {
-    display: inline-block;
-    margin: 1% 0;
-    padding-left: 0;
- }
-   
+ 
     .content-one {
        display: block;
        margin-left: auto;
@@ -242,6 +236,7 @@ overflow: hidden;
         width: 32.5%;
         height: 475px;
     }
+}
 /* For medium screen sizes from 1280px wide and down */
 @media screen and (max-width: 1280px) {
    .responsive {
@@ -251,10 +246,6 @@ overflow: hidden;
         text-align: center;
     }
    
-    #navigation li {
-       display: inline-block;
-       margin: 1%;
-    }  
     
 .column {
         width: 32.5%;
@@ -267,16 +258,18 @@ overflow: hidden;
         border-top: none;
         overflow: hidden;
        }
+    }
 
    /* For medium  screen sizez 1090px down */  
        @media screen and (max-width: 1090px) {
            .column {
-               width: 32%;
+               width: 100%;
                text-align: center;
            }
-         .navigation a {
-             font-size: 80%;
-         } 
+
+           .navigation a {
+            font-size: 18px;
+            }
        } 
 /* For small screen sizez 768 down */
 @media screen and (min-width: 768px) {
@@ -288,10 +281,7 @@ overflow: hidden;
      text-align: center;
      font-size: 200%;
  }
- #navigation a {
-    display: inline-block;
-    font-size: 70%;
- }
+
 
  .content-one {
     width: 100%
@@ -304,9 +294,6 @@ overflow: hidden;
  
  /* For small screen sizez 596px down */
  @media screen and (min-width: 596px) {
-    .navigation li {
-    padding-bottom: 2%
-     }
 
      .content-one {
         width: 100%
@@ -323,10 +310,7 @@ overflow: hidden;
      text-align: center;
      font-size: 200%;
  }
- #navigation li {
-    display: inline-block;
-    margin: 7%;
- }
+
  .column {
      width: 100%;
  }
