@@ -15,10 +15,10 @@ h1, h2, h3, h4 {
     color: black;
 }
 h1 {
-    float: left;
-    font-size: 250%;
-    margin-left: 2%;
-    
+    text-align: center;
+    font-size: 270%;
+   text-decoration-line: underline;
+ margin: 1%;
 }
 .navigation {
   flex-direction: row;
@@ -30,7 +30,6 @@ font-size: 100%;
     float: right;
     margin: 1.5%;
     list-style-type: none;
-    padding-top: 12%;
 }
 .navigation a {
 color: black;
