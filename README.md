@@ -1,108 +1,39 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Purpose of the project
+The main purpose of the Journey into Vitality website is to share, share my knowledge and my passion: wellbeing, power of nature, herbs and healthy diatery choices. All of these are something that I have been learning up until now, I share knowledge and experiences that I tested on myself. I believe in nature and I believe that we are all able to heal, to start over and reset our health. My main goal is to help others and bring awarness and choices to the ones that are open to try new things, to people who struggle with their health but also to those who are just lookimg to use what nature has to offer and improve their wellbeing. I believe content I included in my first ever website and I hope that it reaches someone who will use it and benefit from it- this would be my ultimate goal.
 
-Welcome EdytaJ,
+User Experience
+These are users who have some helath probems and are lookimng for help and ideas:
+As a person with health conditions I would like to be able to find information about various herbs and how these can help with what I ma going through.
+I would like to be able to find inspiration and ideas of healthy nutrition that I could add to my daily routines.
+I would like the content to be written in clear manner and any diatery options to be easy and quick to prepare.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+These are users who are just lookimng to improve their general wellbeing:
+As a person who loves health and nature I would like to be able to get inspired with ideas of different herbs and how they can improve my daily performance.
+I would like to be able to find daily receipes that are easy and not expensive to make and that I could incorporate in my busy life.
+I would like to have an option to subscribe to a newsletter and being able to contribute to a content that is being written for this website.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+3. Features
 
-## Gitpod Reminders
+a.Responsive on all device sizes
+ I have created a website that is fully responsive on all screen sizes
+b. Interactive elements
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+4. Future features
+Herbs card gallery allowing users to find even most unusual herb and read detailed healing benefits plus usage
+Receipes section where users are able to choose from various options: breakfast, lunch, dinner and snacks and by adding their own ingredients from suggested list create their own meal. 
 
-A blue button should appear to click: _Make Public_,
+5. Design
 
-Another blue button should appear to click: _Open Browser_.
+a. Color scheme
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+I used simple color scheme to create this website.
+The footer colour is in keeping with the pallete yet allow user to distinguish this section from the others on the particular page.
 
-A blue button should appear to click: _Make Public_,
+b. Typography
+Headings are in Rock Salt and normal text is in Noto Sans.
+Rock Salt is handcrafted with felt-tip markers that makes it look personable.
+I paired this bold and edgy handwritten font with a web oriented sans-serif font. Both fonts are clean and easily readable, this combination sis frequently used on wellbeling and healt websites
+Sans serif is the fallback font in case the chosen font can not be imported correctly.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
