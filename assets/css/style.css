@@ -231,6 +231,7 @@ overflow: hidden;
        width: 95%;
        overflow: hidden;
     }
+
     .column {
         width: 32.5%;
         height: 475px;
@@ -241,16 +242,12 @@ overflow: hidden;
    .responsive {
         width: 100%;
     }
-   h1 {
-        text-align: center;
-    }
-   
     
 .column {
         width: 32.5%;
         }
     .content-one {
-        width: 50%;
+        width: 100%;
     }
 
     .content {
@@ -275,12 +272,6 @@ overflow: hidden;
     .responsive {
         width: 100%;
     }
- 
- h1 {
-     text-align: center;
-     font-size: 200%;
- }
-
 
  .content-one {
     width: 100%
@@ -293,7 +284,9 @@ overflow: hidden;
  
  /* For small screen sizez 596px down */
  @media screen and (min-width: 596px) {
-
+h1 {
+    font-size: 200%;
+}
      .content-one {
         width: 100%
       }
@@ -301,14 +294,13 @@ overflow: hidden;
 
 /* For mobile screen sizes 480px down */
 @media screen and (max-width: 480px) {
+    h1 {
+        font-size: 180%;
+    }
+    
     .responsive {
         width: 100%;
     }
- 
- h1 {
-     text-align: center;
-     font-size: 200%;
- }
 
  .column {
      width: 100%;
