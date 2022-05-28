@@ -187,7 +187,7 @@ h4 {
 }
 .content {
  float: right;
-   margin: 5%;
+   margin: 10%;
    line-height: 125%;
    letter-spacing: 3px;
    border-bottom: groove;
@@ -203,7 +203,11 @@ overflow: hidden;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    border-bottom: groove;
+    border-right: groove;
+    border-top: groove;
+ border-color: #c9e0d9;
+ border-radius: 3%;
  }
 
  ul {
@@ -223,7 +227,6 @@ overflow: hidden;
        display: block;
        margin-left: auto;
        margin-right: auto;
-    width: 50%;
     }
     .content {
        margin: 1%;
@@ -247,12 +250,13 @@ overflow: hidden;
         width: 32.5%;
         }
     .content-one {
-        width: 100%;
+        width: 50%;
     }
 
     .content {
         border-top: none;
         overflow: hidden;
+        margin-bottom: 2%;
        }
     }
 
@@ -266,6 +270,7 @@ overflow: hidden;
            .navigation a {
             font-size: 18px;
             }
+
        } 
 /* For small screen sizez 768 down */
 @media screen and (min-width: 768px) {
@@ -273,9 +278,6 @@ overflow: hidden;
         width: 100%;
     }
 
- .content-one {
-    width: 100%
- }
  .content {
     border-top: none;
     overflow: hidden;
@@ -288,7 +290,7 @@ h1 {
     font-size: 200%;
 }
      .content-one {
-        width: 100%
+        width: 70%
       }
     }
 
