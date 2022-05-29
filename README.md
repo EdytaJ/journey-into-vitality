@@ -11,9 +11,8 @@ Journey into Vitality is a website focusingh oin natural medicine and wellbeing.
 * [User Experience](#user-experience)
 * [Structure](#structure)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+* [Testing](#testing)
+* [Deployment](#deployment)
 
 
 ## General Information
@@ -22,8 +21,8 @@ The main purpose of the Journey into Vitality website is to share, share my know
 
 
 ## Technologies Used
-* CSS
-* HTML
+* CSS3
+* HTML5
 * GITHUB
 * GITPOD
 
@@ -31,6 +30,7 @@ The main purpose of the Journey into Vitality website is to share, share my know
 
 * Responsive on all device sizes
 * I have created a website that is fully responsive on all screen sizes
+
 
 ## Design
 
@@ -95,23 +95,72 @@ The webpage has a Homepage and 1 further page. Sign up navigation link is taking
 
 Each page is featured with navigation menu. It allows user to qickly and efficiently move around pages.
 
+![](assets/images/navigation-menu.jpg)
+
+
+*I have added background color (#DBC2AD) to the current page navigation link that user is on to make it easier to navigate.
+
+* Website content includes:
+
+Sub-heading and about us section:
+![](assets/images/main1.jpg)
+
+Section with description of 3 chosen herbs:
+![](assets/images/main2.jpg)
+
+Main home page includes vote form where user can feel included and vote for the content of next weeks newsletter.
+![](assets/images/main3.jpg)
+
+Footer that has a different color so its easily distinguished. Footer includes Sign Up form and also links to our Social Media platforms.
+![](assets/images/footer.jpg)
+
+Recipes page includes pictures of the smoothies that we are recommending:
+![](assets/images/recipes1.jpg)
+
+Recipes page also includes ingrediants list under each photo of the green smoothie.
+![](assets/images/recipes1a.jpg)
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Herbs card gallery allowing users to find even most unusual herb and read detailed healing benefits plus usage
+- Recipes section where users are able to choose from various options: breakfast, lunch, dinner and snacks and by adding their own ingredients from suggested list create their own meal. 
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Reasearch market and find most reseached herbs users are intersted in knowing about
+
+## Testing
+
+* Testing results are attached below, I used W3C validators for my HTML and CSS tests:
+
+![](assets/images/htmlValidator.jpg)
+
+![](assets/images/cssValidator.jpg)
+
+I have also tsted if my webpage is responsive on various devices: desktop, laptop, tablet and mobile
+
+I have used Am I responsive https://ui.dev/amiresponsive and result is seen below. Link used to run tests:  https://edytaj.github.io/journey-to-vitality/
+
+![](assets/images/responsive.jpg)
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
+## Deployment
+
+* For this project I've used GitHub IDE editor. Project was saved/pushed to a Github platform cloud using these commands:
+
+git add .
+
+git commit -m "message"
+
+git push
+
+* This project was deployed to GitHub Pages using below steps:
+
+Login to Github and open the Github Repository.
+Within the Repository click on "Settings" on the top of menu.
+Go to the "Pages" section.
+Under the Sources click the dropdown displaying "None" and select branch to be deployed ("Main").
+Click on the "Save" button.
+Deployed link is generated at the top in green section ( Link might be displayed in blue color, this means that your link is being prepared and is not yet ready. You might need to click refresh button few times until link turns green. Your depoloyed link is then ready.)
