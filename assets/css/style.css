@@ -9,76 +9,96 @@ body {
     padding: 0px;
 }
 /* logo and headings */
+
 h1, h2, h3, h4 {
-    font-family: Rock Salt, sans-serif;
-    letter-spacing: 3px;
-    color: black;
+ font-family: Rock Salt, sans-serif;
+ letter-spacing: 3px;
+ color: black;
 }
+
 h1 {
-    text-align: center;
-    font-size: 270%;
-   text-decoration-line: underline;
+ text-align: center;
+ font-size: 270%;
+ text-decoration-line: underline;
  margin: 1%;
 }
+
+/* navigation menu */
+
 .navigation {
-  flex-direction: row;
-  list-style-type: none;
-font-weight: bold;
-font-size: 100%;
+ flex-direction: row;
+ list-style-type: none;
+ font-weight: bold;
+ font-size: 100%;
 }
+
 .navigation li {
-    float: right;
-    margin: 1.5%;
-    list-style-type: none;
+ float: right;
+ margin: 1.5%;
+ list-style-type: none;
+
 }
 .navigation a {
-color: black;
-display: inline-block;
-background: none;
-border-radius: 4px;
-text-decoration: none;
-font-size: 20px;
+ color: black;
+ display: inline-block;
+ background: none;
+ border-radius: 4px;
+ text-decoration: none;
+ font-size: 20px;
 }
+
 .navigation .current {
-    background-color: #DBC2AD;
+ background-color: #DBC2AD;
 }
+
 h1 .navigation {
-    line-height: 100%;
+ line-height: 100%;
 }
+
 .navigation a:hover  {
-    background-color: #DBC2AD;
-    border-radius: 5px;
-text-decoration: none;
+ background-color: #DBC2AD;
+ border-radius: 5px;
+ text-decoration: none;
 }
+
 .responsive {
-max-width: 100%;
-   width: 1500px;
-   margin: 0;
-   padding: 0;
+ max-width: 100%;
+ width: 1500px;
+ margin: 0;
+ padding: 0;
 }
+
+/* about us section */
+
 #botanicals {
-   width: 100%;
-   display: inline-block;
+ width: 100%;
+ display: inline-block;
 }
+
 h2 {
-    text-align: center;
+ text-align: center;
 }
 
 h3 {
-    text-align: center;
-    font-weight: normal;
+ text-align: center;
+ font-weight: normal;
 }
+
 #main {
-    text-align: left;
-    padding: 2%;
-    margin: 1%;
+ text-align: left;
+ padding: 2%;
+ margin: 1%;
 }
+
 #main-two {
-        text-align: left;
-        padding: 2%;
-        margin-top: 2%;
-        margin-bottom: 4%;
-    }
+ text-align: left;
+ padding: 2%;
+ margin-top: 2%;
+ margin-bottom: 4%;
+}
+
+/* join us button */
+
 .button {
  background-color: #DBC2AD;
  color: black;
@@ -89,47 +109,50 @@ h3 {
  border-radius: 8px;
  text-decoration: none;
 }
-#names {
-    text-align: center;
    
-}
 p {
     letter-spacing: 2px;
     font-size: 100%;
     text-align: center;
 }
+
 .column {
-width: 31%;
-display:inline-block;
-align-items: center;
-border-right:groove;
-border-color: #b1cfcf;
-height: 70%;
-background: url('../images/ingredients.jpeg') no-repeat center center;
-overflow: hidden;
-object-fit: cover;
+ width: 31%;
+ display:inline-block;
+ align-items: center;
+ border-right:groove;
+ border-color: #b1cfcf;
+ height: 70%;
+ background: url('../images/ingredients.jpeg') no-repeat center center;
+ overflow: hidden;
+ object-fit: cover;
 }
+
 .additional-one {
-    float: left;
-    font-size: 15px;
+ float: left;
+ font-size: 15px;
 }
+
 .additional-two {
-    float: left;
-    margin-top: 5%;
-    font-size: 15px;
+ float: left;
+ margin-top: 5%;
+ font-size: 15px;
 }
+
 .additional-three {
-    float: left;
-    margin-top: 5%;
-    font-size: 15px;
+ float: left;
+ margin-top: 5%;
+ font-size: 15px;
 }
 
 /* vote form */
+
 form {
-        text-align: center;
-        padding: 5%;
-        line-height: 50px;
+ text-align: center;
+ padding: 5%;
+ line-height: 50px;
 }
+
 .submit {
     background-color: #DBC2AD;
     color: black;
@@ -138,180 +161,206 @@ form {
     display: inline-block;
     width: 100px;
     text-align: center;
-  }
-  input {
-      accent-color:#DBC2AD;
-  }
+}
+input {
+ accent-color:#DBC2AD;
+}
+
  /* footer */
- footer {
-    width: 100%;
-    display: inline-block;
-    background-color: #DBC2AD;
- }
- .social-media {
-     text-align: center;
- }
- .social-media > li {
-     display: inline;
- }
- .social-media i {
-     font-size: 150%;
-     margin: 1%;
-     padding: 5%;
-     color: black;
- }
+
+footer {
+ width: 100%;
+ display: inline-block;
+ background-color: #DBC2AD;
+}
+
+.social-media {
+ text-align: center;
+}
+
+.social-media > li {
+ display: inline;
+}
+
+.social-media i {
+ font-size: 150%;
+ margin: 1%;
+ padding: 5%;
+ color: black;
+}
  
 .subscribe {
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
-    border-radius: 8px;
-    display: inline-block;
-    width: 160px;
-    text-align: center;
+ background-color: transparent;
+ color: black;
+ border: 1px solid black;
+ border-radius: 8px;
+ display: inline-block;
+ width: 160px;
+ text-align: center;
 }
- form {
-    text-align: center;
-    font-weight: bold;
+
+form {
+ text-align: center;
+ font-weight: bold;
 }
-/* recipes */
+
+/* recipes page*/
 
 h4 {
-    margin: 5%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
+ margin: 5%;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ text-align: center;
 }
+
+/* sub section */
+
 #main-two {
     text-align: center;
 }
+
+/* recipes section */
+
 .content {
  float: right;
-   margin: 10%;
-   line-height: 125%;
-   letter-spacing: 3px;
-   border-bottom: groove;
-   border-right: groove;
-   border-top: groove;
-border-color: #c9e0d9;
-border-radius: 3%;
-background: url('../images/ingredientsx.jpeg') no-repeat center center;
-background-size: 170%;
-overflow: hidden;
-}
-.content-one {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: groove;
-    border-right: groove;
-    border-top: groove;
+ margin: 10%;
+ line-height: 125%;
+ letter-spacing: 3px;
+ border-bottom: groove;
+ border-right: groove;
+ border-top: groove;
  border-color: #c9e0d9;
  border-radius: 3%;
- }
+ background: url('../images/ingredientsx.jpeg') no-repeat center center;
+ background-size: 170%;
+ overflow: hidden;
+}
 
- ul {
-     list-style-type: none;
- }
+.content-one {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ border-bottom: groove;
+ border-right: groove;
+ border-top: groove;
+ border-color: #c9e0d9;
+ border-radius: 3%;
+}
+
+ul {
+ list-style-type: none;
+}
 
 /* media queries */
+
 @media screen and (max-width: 2200px) {
    
 .responsive {
-   width: 100%;
-   margin: 0;
-   padding: 0;
+ width: 100%;
+ margin: 0;
+ padding: 0;
 }
  
-    .content-one {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-    }
-    .content {
-       margin: 1%;
-       padding: 2%;
-       width: 95%;
-       overflow: hidden;
-    }
-
-    .column {
-        width: 32.5%;
-        height: 475px;
-    }
+.content-one {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
+
+.content {
+ margin: 1%;
+ padding: 2%;
+ width: 95%;
+ overflow: hidden;
+}
+
+.column {
+ width: 32.5%;
+ height: 475px;
+}
+
+}
+
 /* For medium screen sizes from 1280px wide and down */
+
 @media screen and (max-width: 1280px) {
-   .responsive {
-        width: 100%;
-    }
+.responsive {
+ width: 100%;
+}
     
 .column {
-        width: 32.5%;
-        }
-    .content-one {
-        width: 50%;
-    }
+ width: 32.5%;
+}
 
-    .content {
-        border-top: none;
-        overflow: hidden;
-        margin-bottom: 2%;
-       }
-    }
+.content-one {
+ width: 50%;
+}
 
-   /* For medium  screen sizez 1090px down */  
-       @media screen and (max-width: 1090px) {
-           .column {
-               width: 100%;
-               text-align: center;
-           }
+.content {
+ border-top: none;
+ overflow: hidden;
+ margin-bottom: 2%;
+ }
+}
 
-           .navigation a {
-            font-size: 18px;
-            }
+/* For medium  screen sizez 1090px down */ 
 
-       } 
-/* For small screen sizez 768 down */
+@media screen and (max-width: 1090px) {
+.column {
+ width: 100%;
+ text-align: center;
+}
+.navigation a {
+ font-size: 18px;
+}
+
+ } 
+
+/* For small screen sizez 768 up */
+
 @media screen and (min-width: 768px) {
-    .responsive {
-        width: 100%;
-    }
+.responsive {
+ width: 100%;
+}
 
- .content {
-    border-top: none;
-    overflow: hidden;
+.content {
+ border-top: none;
+ overflow: hidden;
  }
 }
  
- /* For small screen sizez 596px down */
- @media screen and (min-width: 596px) {
+/* For small screen sizez 596px up */
+
+@media screen and (min-width: 596px) {
 h1 {
-    font-size: 200%;
+ font-size: 200%;
 }
-     .content-one {
-        width: 70%
-      }
-    }
+.content-one {
+ width: 70%
+}
+ }
 
 /* For mobile screen sizes 480px down */
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 180%;
-    }
-    
-    .responsive {
-        width: 100%;
-    }
 
- .column {
-     width: 100%;
- }
- .content-one {
-   width: 100%
- }
- .content {
-    border-top: none;
-    overflow: hidden;
+@media screen and (max-width: 480px) {
+h1 {
+ font-size: 180%;
+}
+    
+.responsive {
+ width: 100%;
+}
+
+.column {
+ width: 100%;
+}
+
+.content-one {
+ width: 100%
+}
+
+.content {
+ border-top: none;
+ overflow: hidden;
  }
 }
